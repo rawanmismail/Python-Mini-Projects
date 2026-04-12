@@ -9,4 +9,3 @@ fortune_text = ''
     fortune_text = 'Today will be tought.... but worth it.'
 
 
-print(random.random())
