@@ -12,3 +12,4 @@ if fortune_number == 1:
     fortune_text = 'Today will be tought.... but worth it.'
 
 
+print (f'{fortune_text} Your lucky number is: {lucky_number}')
