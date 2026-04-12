@@ -8,3 +8,4 @@ if answer == 1:
     print('Yes')
 if answer == 2:
     print('Maybe')
+
