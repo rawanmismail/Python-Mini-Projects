@@ -11,6 +11,7 @@ if fortune_number == 1:
 if fortune_number == 1:
     fortune_text = 'Today will be tought.... but worth it.'
 if fortune_number == 1:
+    fortune_text = 'You will achieve your dreams this year!'
 
 
 print (f'{fortune_text} Your lucky number is: {lucky_number}')
