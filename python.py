@@ -1,2 +1,4 @@
-if 5 > 2: 
-    print ('Yes')
+age = 20
+name = Rawan
+city = Doha
+
