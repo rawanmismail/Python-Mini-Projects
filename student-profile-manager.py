@@ -18,13 +18,16 @@ def view_students(): # Function to view all student profiles
     print("\n--- Student List ---")
 
     if len(students) == 0:
-        print("No students found.\n")
+        print("No students found.\n") #the \n means new line. so it prints that no students are found, then it moves the cursour to a new line.
     else:
         for i, student in enumerate(students, start=1):
             name, age, city = student
-            print(f"{i}. {name} | Age: {age} | City: {city}")
+            print(f"{i}. Name: {name} | Age: {age} | City: {city}")
         print()
-
+"""This section means that it will go through the students list one by one ..... then 
+it will give each student a number starting from 1 (because of start=1) and then it
+will print the name, age, and city of each student in a formatted way. 
+After it finishes printing all students, it will print a new line for better readability."""
 
 def main():
     while True:
