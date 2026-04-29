@@ -3,6 +3,7 @@
 students = [] # List to store student profiles
 
 def add_student(): # Function to add a new student profile
+    print("\n--- Add Student ---") #Prints the header 'Add Student' to indicate the start of the student addition process.
     name = input("Enter name: ")
 
     student = [name, age, city]
