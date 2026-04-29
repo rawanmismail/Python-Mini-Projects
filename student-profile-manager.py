@@ -2,6 +2,7 @@
 
 students = [] # List to store student profiles
 
+def add_student(): # Function to add a new student profile
 
     student = [name, age, city]
 
