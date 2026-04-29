@@ -1,5 +1,6 @@
 # Student Profile Manager
 
+students = [] # List to store student profiles
 
 
     student = [name, age, city]
