@@ -5,8 +5,11 @@ students = [] # List to store student profiles
 def add_student(): # Function to add a new student profile
     print("\n--- Add Student ---") #Prints the header 'Add Student' to indicate the start of the student addition process.
     name = input("Enter name: ")
+    age = input("Enter age: ")
+    city = input("Enter city: ")
 
     student = [name, age, city]
+    students.append(student) #append means to put this item inside the list
 
     print("✅ Student added successfully!\n")
 
