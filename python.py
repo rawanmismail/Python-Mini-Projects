@@ -1,7 +1,2 @@
-profile = ('Rawan', 18, 'Abu Dhabi', 'Heriot-Watt University')
-name, age, city, university = profile
-
-print(name)
-print(age)
-print(city)
-print(university)
+my_set = {1, 2, 3}
+print(my_set) # Output: {1, 2, 3}
