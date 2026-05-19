@@ -4,6 +4,7 @@ def major():
     print("Law and Politics")
     print("Medicine and Health")
     print("Education and Teaching")
+    print("Science and Technology")
     print("Sports and Recreation")
     print("Arts and Entertainment")
 
