@@ -9,6 +9,7 @@ def major():
     print("Arts and Entertainment")
 
 def professors():
+    print("Dr. Johnson Lee")
 
 print("Student Data Log")
 student()
