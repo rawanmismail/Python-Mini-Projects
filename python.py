@@ -6,6 +6,7 @@ def university():
 def POB():
     print("Boston, Massachusetts")  
     print("Education and Teaching")
+    print("Sports and Recreation")
 
 
 print("Student Data Log")
