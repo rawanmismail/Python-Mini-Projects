@@ -1,7 +1,6 @@
 print("Online Data Logger")
 
 def major():
-    print("Computer Science")
 def university():
     print("Harvard University") 
 def age():
