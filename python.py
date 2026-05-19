@@ -3,7 +3,6 @@ print("Online Data Logger")
 def major():
 def university():
     print("Harvard University") 
-def age():
     print(21)
 def POB():
     print("Boston, Massachusetts")  
