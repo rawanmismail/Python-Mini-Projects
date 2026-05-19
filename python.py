@@ -1,6 +1,7 @@
 print("Online Data Logger")
 
 def major():
+    print("Medicine and Health")
     print("Education and Teaching")
     print("Sports and Recreation")
 
