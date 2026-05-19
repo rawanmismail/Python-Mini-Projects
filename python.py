@@ -8,6 +8,7 @@ def major():
     print("Sports and Recreation")
     print("Arts and Entertainment")
 
+def professors():
 
 print("Student Data Log")
 student()
