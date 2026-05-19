@@ -1,4 +1,5 @@
     print("Emily Rhodes")
+print("Online Data Logger")
 def major():
     print("Computer Science")
 def university():
