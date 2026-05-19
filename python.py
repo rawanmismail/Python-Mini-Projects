@@ -1,4 +1,3 @@
-def student():
     print("Emily Rhodes")
 def major():
     print("Computer Science")
