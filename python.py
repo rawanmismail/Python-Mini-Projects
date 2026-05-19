@@ -10,6 +10,7 @@ def major():
 
 def professors():
     print("Dr. Johnson Lee")
+    print("Dr. Jone Mills")
     print("Dr. David Miller")
     print("Dr. Garcia Anderson")
 
