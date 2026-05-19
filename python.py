@@ -5,6 +5,7 @@ def major():
     print("Medicine and Health")
     print("Education and Teaching")
     print("Sports and Recreation")
+    print("Arts and Entertainment")
 
 
 print("Student Data Log")
