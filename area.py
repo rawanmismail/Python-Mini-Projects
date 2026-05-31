@@ -8,5 +8,6 @@ def main ():
 
     print('House is ' + str(house) + ' square feet')
     print(str(yard) + ' square feet')
+    print(str(total) + ' square feet')
 
 main()
