@@ -6,4 +6,3 @@ def main ():
     yard = area(50,50)
     total = house + yard
 
-main()
