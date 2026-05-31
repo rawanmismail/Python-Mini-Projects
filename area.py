@@ -6,3 +6,4 @@ def main ():
     yard = area(50,50)
     total = house + yard
 
+    print(str(yard) + ' square feet')
