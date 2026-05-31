@@ -1,0 +1,1 @@
+def area(length,width):
