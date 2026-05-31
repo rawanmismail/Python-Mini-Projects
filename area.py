@@ -1,5 +1,5 @@
 def area(length,width):
-    print(str(length * width) + 'square feet')
+    return length * width
 
 def main ():
     area(50,20)
