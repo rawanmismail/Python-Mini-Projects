@@ -1,7 +1,7 @@
 emoticon = '[^_^]'
 
 def main():
-    say('Hellow world')
+    say('Hello world')
 
 def say(phrase):
     print(phrase + ' ' + emoticon)
