@@ -1,5 +1,6 @@
 def area(length,width):
     return length * width
+    print(str(length * width))
 
 def main ():
     house = area(50,20)
