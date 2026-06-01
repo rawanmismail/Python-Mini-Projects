@@ -1,6 +1,7 @@
 emoticon = '[^_^]'
 
 def main():
+    global emoticon
     say('Hello world')
     say('Goodbye world')
 
