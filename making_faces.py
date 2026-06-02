@@ -5,4 +5,5 @@ def convert(text):
 
 def main():
     user_input = input('Enter a piece of text: ')
+    print(convert(user_input))
 
