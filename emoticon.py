@@ -8,4 +8,5 @@ def main():
 
 def say(phrase):
     print(phrase + ' ' + emoticon)
+
 main()
