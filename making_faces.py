@@ -4,3 +4,4 @@ def convert(text):
     return text
 
 def main():
+    user_input = input('Enter a piece of text: ')
