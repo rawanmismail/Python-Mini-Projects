@@ -5,3 +5,4 @@ def main():
     say('Hello world')
     emoticon = '[T_T]'
     say('Goodbye world')
+
