@@ -7,4 +7,5 @@ def main():
     say('Goodbye world')
 
 def say(phrase):
+    print(phrase + ' ' + emoticon)
 main()
