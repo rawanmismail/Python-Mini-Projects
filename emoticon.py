@@ -1,2 +1,3 @@
 emoticon = '[^_^]'
 
+def main():
