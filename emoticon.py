@@ -6,4 +6,5 @@ def main():
     emoticon = '[T_T]'
     say('Goodbye world')
 
+def say(phrase):
 main()
