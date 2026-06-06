@@ -38,5 +38,14 @@ def main():
         print("We recommend you visit Malaysia!")
     elif activity == 'hiking' and weather == 'hot' and budget == 'high':
         print("We recommend you visit New Zealand!")
+    elif activity == 'hiking' and weather == 'cold' and budget == 'low':
         print("We recommend you visit Armenia!")
+    elif activity == 'hiking' and weather == 'cold' and budget == 'medium':
         print("We recommend you visit Slovenia!")
+    elif activity == 'hiking' and weather == 'cold' and budget == 'high':
+        print("We recommend you visit Canada!")
+
+    else:
+        print("Invalid input.")
+
+main()
