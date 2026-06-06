@@ -39,3 +39,4 @@ def main():
     elif activity == 'hiking' and weather == 'hot' and budget == 'high':
         print("We recommend you visit New Zealand!")
         print("We recommend you visit Armenia!")
+        print("We recommend you visit Slovenia!")
