@@ -8,3 +8,11 @@ def main():
         print("We recommend you visit Georgia!")
     elif activity == 'adventure' and weather == 'hot' and budget == 'medium':
         print("We recommend you visit Turkey!")
+    elif activity == 'adventure' and weather == 'hot' and budget == 'high':
+        print("We recommend you visit Oman!")
+    elif activity == 'adventure' and weather == 'cold' and budget == 'low':
+        print("We recommend you visit Kazakhstan!")
+    elif activity == 'adventure' and weather == 'cold' and budget == 'medium':
+        print("We recommend you visit Romania!")
+    elif activity == 'adventure' and weather == 'cold' and budget == 'high':
+        print("We recommend you visit Norway!")
