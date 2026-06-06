@@ -30,3 +30,11 @@ def main():
         print("We recommend you visit Austria!")
     elif activity == 'relaxation' and weather == 'cold' and budget == 'high':
         print("We recommend you visit Switzerland!")
+
+    # Hiking
+    elif activity == 'hiking' and weather == 'hot' and budget == 'low':
+        print("We recommend you visit Jordan!")
+    elif activity == 'hiking' and weather == 'hot' and budget == 'medium':
+        print("We recommend you visit Malaysia!")
+    elif activity == 'hiking' and weather == 'hot' and budget == 'high':
+        print("We recommend you visit New Zealand!")
