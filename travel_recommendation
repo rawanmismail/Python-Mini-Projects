@@ -1,0 +1,10 @@
+def main():
+    activity = input("What would you like to do on your trip? Choose one: Adventure or Relaxation or Hiking: ").lower()
+    weather = input("What kind of weather would you prefer? Choose one: Hot or Cold: ").lower()
+    budget = input("What is your overall budget for the trip? Choose one: Low or Medium or High: ").lower()
+
+    # Adventure
+    if activity == 'adventure' and weather == 'hot' and budget == 'low':
+        print("We recommend you visit Georgia!")
+    elif activity == 'adventure' and weather == 'hot' and budget == 'medium':
+        print("We recommend you visit Turkey!")
