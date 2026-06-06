@@ -17,3 +17,16 @@ def main():
     elif activity == 'adventure' and weather == 'cold' and budget == 'high':
         print("We recommend you visit Norway!")
 
+    # Relaxation
+    elif activity == 'relaxation' and weather == 'hot' and budget == 'low':
+        print("We recommend you visit the UAE!")
+    elif activity == 'relaxation' and weather == 'hot' and budget == 'medium':
+        print("We recommend you visit Bali!")
+    elif activity == 'relaxation' and weather == 'hot' and budget == 'high':
+        print("We recommend you visit Maldives!")
+    elif activity == 'relaxation' and weather == 'cold' and budget == 'low':
+        print("We recommend you visit Bulgaria!")
+    elif activity == 'relaxation' and weather == 'cold' and budget == 'medium':
+        print("We recommend you visit Austria!")
+    elif activity == 'relaxation' and weather == 'cold' and budget == 'high':
+        print("We recommend you visit Switzerland!")
