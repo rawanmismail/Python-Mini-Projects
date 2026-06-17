@@ -6,3 +6,4 @@ def main():
     print("Your letters are: A  I  P  C  R  H  G")
 
 
+main()
