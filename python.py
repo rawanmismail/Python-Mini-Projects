@@ -4,3 +4,4 @@ def main():
     print("Welcome to the Spelling Bee Game!")
     print("Your letters are: A  I  P  C  R  H  G")
 
+    while len(Words) > 0:
