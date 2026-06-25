@@ -8,6 +8,7 @@ def main():
     while len(Words) > 0:
         guess = input("Enter a word (or type 'exit' to quit): ").upper()
         if guess == "EXIT":
+            print("Thanks for playing!")
         elif guess in Words:
 
 main()
