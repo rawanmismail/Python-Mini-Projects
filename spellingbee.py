@@ -14,7 +14,6 @@ def main():
         else:
             print(f"Sorry, '{guess}' is not a valid word.")
 
-main()
 
 
 main()
