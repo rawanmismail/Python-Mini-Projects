@@ -11,6 +11,7 @@ def main():
             print("Thanks for playing!")
         elif guess in Words:
             print("Correct! You found a valid word!")
+            print(f"Sorry, '{guess}' is not a valid word.")
 
 main()
 
