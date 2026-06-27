@@ -9,6 +9,7 @@ def main():
         guess = input("Guess the word:" + " ").strip().upper()
         print("Your guess is:", repr(guess))
 
+            points = Words[guess]
             print(f"Congratulations! You have won! You scored {points} points!")
 
         elif guess in Words:
