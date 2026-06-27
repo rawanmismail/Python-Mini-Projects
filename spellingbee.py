@@ -7,6 +7,7 @@ def main():
 
     while len(Words) > 0:
         guess = input("Guess the word:" + " ").strip().upper()
+        print("Your guess is:", repr(guess))
 
 
         elif guess in Words:
