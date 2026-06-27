@@ -7,7 +7,6 @@ def main():
 
     while len(Words) > 0:
         elif guess in Words:
-            print("Correct! You found a valid word!")
         else:
             print(f"Sorry, '{guess}' is not a valid word.")
 
