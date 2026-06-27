@@ -14,6 +14,7 @@ def main():
             print(f"Congratulations! You have won! You scored {points} points!")
 
         elif guess in Words:
+
         else:
             print(f"Sorry, '{guess}' is not a valid word.")
 
