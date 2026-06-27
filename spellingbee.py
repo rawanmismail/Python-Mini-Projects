@@ -7,7 +7,6 @@ def main():
 
     while len(Words) > 0:
         if guess == "EXIT":
-            print("Thanks for playing!")
         elif guess in Words:
             print("Correct! You found a valid word!")
         else:
