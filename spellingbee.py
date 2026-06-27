@@ -6,7 +6,6 @@ def main():
     print("Your letters are: A  I  P  C  R  H  G")
 
     while len(Words) > 0:
-        guess = input("Enter a word (or type 'exit' to quit): ").upper()
         if guess == "EXIT":
             print("Thanks for playing!")
         elif guess in Words:
