@@ -15,6 +15,7 @@ def main():
 
         elif guess in Words:
             points = Words[guess]
+            print(f"Good job! You scored {points} points!")
 
 
         else:
