@@ -6,6 +6,9 @@ def main():
     print("Your letters are: A  I  P  C  R  H  G")
 
     while len(Words) > 0:
+        guess = input("Guess the word:" + " ").strip().upper()
+
+
         elif guess in Words:
         else:
             print(f"Sorry, '{guess}' is not a valid word.")
