@@ -14,4 +14,5 @@ results.extend(["Bowser", "Donkey Kong Jr."]) # adds elements from another list
 results.remove("Bowser") #removes an item from the list
 results.insert(1, "Bowser") #inserts an item at a specific index
 
+results.pop() #removes the last item from the list
 print(results) #prints the list
