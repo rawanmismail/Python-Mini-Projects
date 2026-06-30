@@ -11,4 +11,6 @@ results.append(["Bowser", "Donkey Kong Jr."]) #adds a list to the list
 results.remove(["Bowser", "Donkey Kong Jr."]) # removes the list from the list
 results.extend(["Bowser", "Donkey Kong Jr."]) # adds elements from another list
 
+results.remove("Bowser") #removes an item from the list
+
 print(results) #prints the list
