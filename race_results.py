@@ -16,4 +16,5 @@ results.insert(1, "Bowser") #inserts an item at a specific index
 
 results.pop() #removes the last item from the list
 results.sort() #sorts the list in alphabetical order
+results.reverse() #reverses the order of the list
 print(results) #prints the list
