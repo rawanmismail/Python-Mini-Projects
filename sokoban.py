@@ -7,3 +7,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
 
         if action == "undo": # Checks if the user entered 'undo'
             if history: # Checks if there are any actions in the history list
+                last_action = history.pop() # Removes the last action from the history list and stores it in last_action
