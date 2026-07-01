@@ -15,3 +15,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
         elif action == "restart": # Checks if the user entered 'restart'
             history.clear() # Clears the history list, effectively restarting the game
             print("Game restarted. History cleared.") # Prints a message indicating that the game has been restarted and history cleared
+
