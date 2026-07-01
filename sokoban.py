@@ -9,3 +9,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
             if history: # Checks if there are any actions in the history list
                 last_action = history.pop() # Removes the last action from the history list and stores it in last_action
                 print(f"Undoing last action: {last_action}") # Prints a message indicating that the last action is being undone
+            else:
