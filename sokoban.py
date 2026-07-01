@@ -4,3 +4,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
 
     while True:
         action = input("Enter an action (up, down, left, right) or 'undo' to undo the last action: ") # Prompts the user to enter an action and stores it in the variable action
+
