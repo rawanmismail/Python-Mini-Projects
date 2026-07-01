@@ -17,3 +17,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
             print("Game restarted. History cleared.") # Prints a message indicating that the game has been restarted and history cleared
 
         else:
+            history.append(action) # Adds the entered action to the history list
