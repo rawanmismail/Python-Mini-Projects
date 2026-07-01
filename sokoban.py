@@ -22,4 +22,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
 
         print(history) # Prints the current history list to show the user the actions they have entered so far
 
-main() # Calls the main function to start the program
+main() # Calls the main function to start the programmain() #  Calls the main function to start the program
