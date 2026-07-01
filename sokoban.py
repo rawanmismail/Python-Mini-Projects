@@ -18,3 +18,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
 
         else:
             history.append(action) # Adds the entered action to the history list
+            print(f"Action '{action}' added to history.") # Prints a message indicating that the action has been added to history
