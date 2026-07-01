@@ -11,3 +11,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
                 print(f"Undoing last action: {last_action}") # Prints a message indicating that the last action is being undone
             else:
                 print("No actions to undo.") # Prints a message indicating that there are no actions to undo
+        
