@@ -12,3 +12,4 @@ def main(): # Defines a function named main. The program’s logic is placed ins
             else:
                 print("No actions to undo.") # Prints a message indicating that there are no actions to undo
         
+        elif action == "restart": # Checks if the user entered 'restart'
