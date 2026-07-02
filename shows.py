@@ -9,3 +9,4 @@ SHOWS = [
 ]
 
 
+def main():
