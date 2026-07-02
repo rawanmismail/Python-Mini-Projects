@@ -12,3 +12,7 @@ SHOWS = [
 def main():
     for show in SHOWS:
         print(show)
+
+
+
+main()
