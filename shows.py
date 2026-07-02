@@ -10,6 +10,7 @@ SHOWS = [
 
 
 def main():
+    cleaned_shows = []
     for show in SHOWS:
         print(show)
 
