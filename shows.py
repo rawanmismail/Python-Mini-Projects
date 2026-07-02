@@ -6,3 +6,4 @@ SHOWS = [
     "spongebob squarepants",
     "the owl house",
     "Enchanted",
+]
