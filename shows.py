@@ -1,5 +1,5 @@
 SHOWS = [
-    "Avatar: the last airbender",
+    " avatar: the last airbender",
     "The Legend of korra",
     "The dragon prince",
     "Voltron: Legendary Defender",
