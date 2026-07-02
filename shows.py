@@ -10,4 +10,3 @@ SHOWS = [
 
 
 def main():
-        print(i)
