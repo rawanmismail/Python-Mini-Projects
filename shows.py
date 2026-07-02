@@ -12,7 +12,8 @@ SHOWS = [
 def main():
     cleaned_shows = []
     for show in SHOWS:
-        print(show)
+        cleaned_shows.append(show.strip().title()) #Strip removes whitespace from the beginning and end of the string, and title() capitalizes the first letter of each word.
+                            
 
 
 
