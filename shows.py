@@ -4,4 +4,5 @@ SHOWS = [
     "The dragon prince",
     "Voltron: Legendary Defender",
     "spongebob squarepants",
+    "the owl house",
 ]
