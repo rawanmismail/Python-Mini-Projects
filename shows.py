@@ -11,3 +11,4 @@ SHOWS = [
 
 def main():
     for i in SHOWS:
+        print(i)
