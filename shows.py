@@ -3,4 +3,5 @@ SHOWS = [
     "The Legend of korra",
     "The dragon prince",
     "Voltron: Legendary Defender",
+    "spongebob squarepants",
 ]
