@@ -5,4 +5,5 @@ SHOWS = [
     "Voltron: Legendary Defender",
     "spongebob squarepants",
     "the owl house",
+    "Enchanted",
 ]
