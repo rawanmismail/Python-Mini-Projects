@@ -9,3 +9,4 @@ My program will then convert it to snake_case
 """
 
 
+camel = input("camelCase:  ") #Get the input from the user
