@@ -11,3 +11,4 @@ My program will then convert it to snake_case
 
 camel = input("camelCase:  ") #Get the input from the user
 for letter in camel: #Loop through each letter in the input string
+    if letter.isupper(): #Check if the letter is uppercase
