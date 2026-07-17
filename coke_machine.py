@@ -8,3 +8,4 @@ while amount_due > 0:
         amount_due -= coin
     else:
         print("Invalid coin. Please insert a valid coin.")
+    
