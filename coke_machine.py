@@ -9,3 +9,4 @@ while amount_due > 0:
     else:
         print("Invalid coin. Please insert a valid coin.")
     
+    print(f"Change due: {amount_due} cents")
