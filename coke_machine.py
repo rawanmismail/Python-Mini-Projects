@@ -6,3 +6,4 @@ while amount_due > 0:
     
     if coin in [5, 10, 25]:
         amount_due -= coin
+    else:
