@@ -1,33 +1,32 @@
 def main():
-    plate = input("Plate: ")
-    if is_valid(plate):
-        print("Valid")
-    else:
-        print("Invalid")
+    fruits = {
+        "Apple": 130,
+        "Avocado": 50,
+        "Banana": 110,
+        "Cantaloupe": 50,
+        "Grapefruit": 60,
+        "Grapes": 90,
+        "Honeydew Melon": 50,
+        "Kiwifruit": 90,
+        "Lemon": 15,
+        "Lime": 20,
+        "Nectarine": 60,
+        "Orange": 80,
+        "Peach": 60,
+        "Pear": 100,
+        "Pineapple": 50,
+        "Plums": 70,
+        "Strawberries": 50,
+        "Sweet Cherries": 100,
+        "Tangerine": 50,
+        "Watermelon": 80
+}
 
-def is_valid(s):
-    if len(s) < 2 or len(s) > 6: #Length Check
-        return False
 
-    if not s[0].isalpha(): #First 2 characters to be letters
-        return False
-    if not s[1].isalpha():
-        return False
+fruit = input("Item: ").title()
 
-    number_started = False
-
-    for letter in s: #Punctuation & Space Check
-        if not letter.isalnum():
-            return False
-        if letter .isdigit():
-            number_started == False:
-                if letter == "0":
-                    return False
-                number_started = True
-
-        else:
-            if number_started == True:
-                return False
-
+if fruit in fruits:
+    print(f"Calories: {fruits[fruit]}")
 
 main()
+
