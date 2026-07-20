@@ -9,3 +9,4 @@ distances = {
     "Pioneer 11": "44 AU"
 }
 
+def main():
