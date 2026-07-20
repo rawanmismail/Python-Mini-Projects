@@ -15,4 +15,5 @@ def main():
     print(f"The distance of {spacecraft} from Earth is {m} meters away.")
 
 def convert (au):
+    return au * 149597870700
 main()
