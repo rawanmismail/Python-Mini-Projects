@@ -14,3 +14,4 @@ def main():
     m = convert(distance[spacecraft])
     print(f"The distance of {spacecraft} from Earth is {m} miles away.")
 
+main()
