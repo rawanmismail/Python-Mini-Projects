@@ -4,3 +4,4 @@ distances = {
     "Pioneer 10": "80 AU",
     "New Horizons": "58",
     "Pioneer 11": "44 AU"
+}
