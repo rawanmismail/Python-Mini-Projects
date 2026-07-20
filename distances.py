@@ -11,3 +11,4 @@ distances = {
 
 def main():
     spacecraft = input("Enter the name of the spacecraft: ")
+    m = convert(distance[spacecraft])
