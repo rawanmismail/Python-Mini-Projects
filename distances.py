@@ -12,6 +12,5 @@ distances = {
 def main():
     spacecraft = input("Enter the name of the spacecraft: ")
     m = convert(distance[spacecraft])
-    print(f"The distance of {spacecraft} from Earth is {m} miles away.")
 
 main()
