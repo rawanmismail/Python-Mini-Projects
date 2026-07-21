@@ -13,6 +13,7 @@ def main():
     spacecraft = input("Enter the name of the spacecraft: ")
     try:
         au = float(distances[spacecraft])
+    except ValueError:
     print(f"The distance of {spacecraft} from Earth is {m} meters away.")
 
 def convert (au):
