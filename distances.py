@@ -12,6 +12,7 @@ distances = {
 def main():
     spacecraft = input("Enter the name of the spacecraft: ")
     try:
+        au = float(distances[spacecraft])
     print(f"The distance of {spacecraft} from Earth is {m} meters away.")
 
 def convert (au):
