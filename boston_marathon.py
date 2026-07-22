@@ -4,3 +4,4 @@ def main():
     #The {round(pace,2)} = Rounds the value of pace to 2 decimal places.
 
 def get_pace(miles, minutes):
+    if not minutes > 0:
