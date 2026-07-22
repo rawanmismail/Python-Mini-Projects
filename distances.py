@@ -18,6 +18,7 @@ def main():
         return
     except KeyError:
         print(f"'{spacecraft}' is not a valid spacecraft name in the dictionary.")
+        return
     
     m = convert(au)
     print(f"The distance of {spacecraft} from Earth is {m} meters away.")
