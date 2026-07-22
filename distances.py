@@ -14,7 +14,6 @@ def main():
     try:
         au = float(distances[spacecraft])
     except ValueError:
-        print(f"Can't convert {distances[spacecraft]} to a float.")
         return
     
     m = convert(au)
