@@ -17,6 +17,7 @@ def main():
         print(f"Can't convert '{distances[spacecraft]}' to a float.")
         return
     except KeyError:
+        print(f"'{spacecraft}' is not a valid spacecraft name in the dictionary.")
     
     m = convert(au)
     print(f"The distance of {spacecraft} from Earth is {m} meters away.")
