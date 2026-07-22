@@ -5,7 +5,6 @@ def main():
 
 def get_pace(miles, minutes):
     if not minutes > 0:
-        
     return minutes / miles
 
 main()
