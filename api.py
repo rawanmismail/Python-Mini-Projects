@@ -1,8 +1,11 @@
-import requests
+import json
+from urllib.request import urlopen
 
 
 def main():
-    requests.get("https://api.artic.edu/api/v1")
+    with urlopen("https://api.artic.edu/api/v1/artworks/search") as response:
+        data = json.loads(response.read().decode("utf-8"))
+        print(data)
 
 
 
