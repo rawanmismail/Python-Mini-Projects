@@ -12,3 +12,4 @@ if response.status_code == 200: #MEANING: Did the server reply with 'Success'?
     print(f"Public Repos: {user_data.get('public_repos')}") #MEANING: Get the 'public_repos' value from the dictionary and print it
 else:
     print("Failed to retrieve user data.")
+
