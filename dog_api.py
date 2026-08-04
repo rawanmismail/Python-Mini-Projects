@@ -4,3 +4,4 @@ import requests
 
 # 1. Define the API endpoint for a random dog picture
 url = "https://dog.ceo/api/breeds/image/random"
+
