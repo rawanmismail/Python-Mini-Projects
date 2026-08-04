@@ -20,3 +20,7 @@ if response.status_code == 200:
     # (e.g., "https://images.dog.ceo/breeds/husky/n02110185_1469.jpg" -> "husky")
     breed = image_url.split("/")[4]
     
+    print("--- 🐶 Dog Found! ---")
+    print(f"Breed: {breed.capitalize()}")
+    print(f"Image Link: {image_url}")
+
