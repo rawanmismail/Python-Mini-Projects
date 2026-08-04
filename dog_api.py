@@ -16,3 +16,7 @@ if response.status_code == 200:
     # 5. Get the image URL from the dictionarys
     image_url = data.get("message")
     
+    # 6. Extract the breed name from the image URL link
+    # (e.g., "https://images.dog.ceo/breeds/husky/n02110185_1469.jpg" -> "husky")
+    breed = image_url.split("/")[4]
+    
