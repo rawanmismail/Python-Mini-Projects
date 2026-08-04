@@ -13,3 +13,6 @@ if response.status_code == 200:
     # 4. Convert the raw JSON into a Python dictionary
     data = response.json()
     
+    # 5. Get the image URL from the dictionarys
+    image_url = data.get("message")
+    
