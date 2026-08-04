@@ -24,3 +24,5 @@ if response.status_code == 200:
     print(f"Breed: {breed.capitalize()}")
     print(f"Image Link: {image_url}")
 
+else:
+    print("Failed to fetch dog image from the API.")
