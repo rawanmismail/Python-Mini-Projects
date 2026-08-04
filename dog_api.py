@@ -8,3 +8,8 @@ url = "https://dog.ceo/api/breeds/image/random"
 # 2. Ask the API for data
 response = requests.get(url)
 
+# 3. Check if the server responded with 200 (OK)
+if response.status_code == 200:
+    # 4. Convert the raw JSON into a Python dictionary
+    data = response.json()
+    
