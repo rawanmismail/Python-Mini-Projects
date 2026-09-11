@@ -6,3 +6,4 @@ def test_adult():
     assert adult(20) == True
     assert adult(0) == False
     assert adult(-1) == False
+
